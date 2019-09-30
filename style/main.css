@@ -1,0 +1,125 @@
+/*style untuk selector - body */
+
+body{
+   background-color:darkgray;
+   background-size: cover;
+height: 200px;
+   margin: 0px;
+}
+/*style untuk heading - BEGIN */
+h1 {
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: rgb(7, 7, 73);
+    font-style: unset
+}
+/* style untuk heading - END */
+
+/* style untuk link - BEGIN */
+a:link {
+    color: darkseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.container {
+    /* background-color: burlywood; */
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%
+}
+
+.logo {
+    text-align: center;
+}
+.jumbotron {
+    background-image: url('../image/culture.jpg');
+    background-size: cover;
+    height: 200px;
+    margin: 0px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 20px
+}
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+]
+
+a:visited {
+    color: rgb(79, 250, 241);
+}
+/* style untuk link - END */
+.container {
+    background-image: url('../image/v.jpg')
+    ;
+    text-align: center;
+    overflow: auto;
+    width: 98%
+}
+/* menu header - BEGIN */
+.menu-header {
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 
+    0 3px 5px -1px palevioletred (0, 0, 0, 0.2),
+    0 6px 10px 0 palevioletred (0, 0, 0, 0.14),
+    0 1px 18px 0 palevioletred (0, 0, 0, 0.12);
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: darkgray;
+}
+/* card home - BEGIN */
+.cardhome {
+    background-color: rosybrown;
+    width: 30%;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0  rgba(0,0,0,0.2);
+    display: inline-block;
+}
+.cardhead {
+    border-bottom: solid 1px wheat;
+}
+.cardhead h3 {
+    text-align: center;
+    margin: 10px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkcyan; 
+}
+
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: monospace;
+    font-size: 16px;
+
+}
+.cardflex {
+    justify-content: space-between;
+}
+
+/* card home - END */
